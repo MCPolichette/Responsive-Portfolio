@@ -4,14 +4,14 @@ body {
     background: #ccc;
 }
 h2{
-    color:cyan;
+    color:rgb(4, 121, 121);
     font-size:32px;
 
 }
 
 .name {
     float:left;
-    background: cyan;
+    background: rgb(4, 121, 121);
     color: white;
     font-size: 32px;
     padding:10px;
@@ -24,7 +24,7 @@ h2{
 }
 .headercontent { 
    
-    background: gold;
+    background:white;
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -42,6 +42,7 @@ h2{
     clear: both;
 }
 .content {
+    margin-top: 20px;
     background: white;
     padding:20px;
     max-width:920px;
