@@ -1,0 +1,50 @@
+body {
+    padding:0;
+    margin:0;
+    background: #ccc;
+}
+h2{
+    color:cyan;
+    font-size:32px;
+
+}
+
+.name {
+    float:left;
+    background: cyan;
+    color: white;
+    font-size: 32px;
+    padding:10px;
+}
+.header {
+   
+    background: white;
+    width:100%;
+
+}
+.headercontent { 
+   
+    background: gold;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.links {
+    float:right;
+
+}
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+.content {
+    background: white;
+    padding:20px;
+    max-width:920px;
+    margin-left: auto;
+    margin-right: auto;
+}
