@@ -2,13 +2,12 @@ body {
     background: rgb(196, 191, 191);
     padding:0;
     margin:0;
+    /* background: url(assets/images/Placeholder1);
+    background-repeat: repeat; */
+    /* CANNOT GET BACKGROUND TO WORK */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-#sunbackground {
-    background-image: assets/images/sun-pattern.png;
-    background-position: left top;
-    background-repeat: repeat;
-}
+
 h2{
     color:#4aaaa5;
     font-size:32px;
@@ -43,7 +42,7 @@ h2{
     /* Want to get links to be horizontally lined */
     float: right;
     list-style-type: none;
-    margin: 0;
+    margin: 5px,0px;
     padding: 0;
     width: 200px;
 }
@@ -79,12 +78,19 @@ a:hover:not(.active) {
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    border-color: #dddddd;
+    border-color: #3f3e3e;
     border-width: 2px;
 }
 .pagebottom {
-    float:bottom;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background: #666666;
     height:30px;
     color:white;
+    font-size: 8px;
+    text-align: center;
+    border: #4aaaa5;
+    border-width: 15px;
 }
