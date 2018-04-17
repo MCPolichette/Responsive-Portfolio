@@ -75,8 +75,9 @@ a:hover:not(.active) {
     background: #fff;
     padding:20px;
     max-width:920px;
-    min-height: 300px; 
-    /* need to get height to match content in the box. min-height is unacceptable */
+    height: 100%;
+    overflow: auto;
+    /*SOLVED: need to get height to match content in the box. min-height is unacceptable */
     margin-left: auto;
     margin-right: auto;
     border-color: #3f3e3e;
