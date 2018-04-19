@@ -23,6 +23,8 @@ h2{
     width:100%;
     border-bottom-color: #cccccc;
     border-bottom-width:2px;
+    overflow: auto;
+
 }
 
 .headercontent { 
