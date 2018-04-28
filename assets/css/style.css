@@ -226,6 +226,9 @@ Static masthead */
   padding-top:0;
   max-width:640px;g
 }
+.work:nth-child(even) {
+  margin-right: 25px;
+}
 
 /* Small screen
 static masthead, adjust screen to fit conveniently */
@@ -261,6 +264,9 @@ nav {
     text-align: center;
     
    } 
+   .auth-image {
+    
+    width: 100%;}
 #logo {
   
     /* float: left; */
